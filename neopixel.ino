@@ -3,8 +3,8 @@
 #include <WiFiUdp.h>
 #include <NTPClient.h>
 
-const char *ssid =  "Tartarus";                     //em_fulda
-const char *pass =  "FlamingosZuVerkaufen#2020";    //$(document).ready();
+const char *ssid =  "AP_NAME";                    
+const char *pass =  "AP_PASS";    
 
 Adafruit_NeoPixel pixels(24, 12, NEO_GRB + NEO_KHZ800);
 
